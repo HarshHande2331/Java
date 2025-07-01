@@ -1,0 +1,32 @@
+// Parent class
+class Person {
+    void speak() {
+        System.out.println("Person can speak");
+    }
+}
+
+// First child class
+class Harsh extends Person {
+    void dance() {
+        System.out.println("Harsh can dance");
+    }
+}
+
+// Second child class
+class Raj extends Person {
+    void sing() {
+        System.out.println("Raj can sing");
+    }
+}
+
+public class Hierarchicalinheritance {
+    public static void main(String[] args) {
+        Harsh s = new Harsh();
+        s.speak();  // inherited
+        s.dance();  // own method
+
+        Raj a = new Raj();
+        a.speak();  // inherited
+        a.sing();   // own method
+    }
+}
