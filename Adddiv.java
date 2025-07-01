@@ -18,13 +18,13 @@ class Calculator {
 
 public class Adddiv {
     public static void main(String[] args) {
-        Calculator saailiCalc = new Calculator();
+        Calculator HarshCalc = new Calculator();
 
         int a = 10, b = 2;
 
-        System.out.println("Saaili's Add: " + saailiCalc.add(a, b));
-        System.out.println("Saaili's Subtract: " + saailiCalc.subtract(a, b));
-        System.out.println("Saaili's Multiply: " + saailiCalc.multiply(a, b));
-        System.out.println("Saaili's Divide: " + saailiCalc.divide(a, b));
+        System.out.println("Harsh's Add: " + harshCalc.add(a, b));
+        System.out.println("Harsh's Subtract: " + harshCalc.subtract(a, b));
+        System.out.println("Harsh's Multiply: " + harshCalc.multiply(a, b));
+        System.out.println("Harsh's Divide: " + harshCalc.divide(a, b));
     }
 }
